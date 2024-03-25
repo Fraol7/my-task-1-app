@@ -12,7 +12,7 @@ interface TypeString {
 export const Card = ({title, name, locate, descript, image}: TypeString) => {
   return (
     <Link href={"/"}>
-    <div className="flex bg-[#FFF] border-1 shadow-lg shadow-red rounded-3xl gap-7 my-4 py-5 px-10 mx-auto sm:w-4/5 md:w-2/3 cursor-pointer">
+    <div className="flex bg-[#FFF] border-1 shadow-lg shadow-red rounded-3xl gap-7 my-4 py-5 px-10 mx-auto sm:w-4/5 md:w-2/3 transition duration-300 hover:scale-105 cursor-pointer">
       <Image src={image} alt="imagefile" className="h-20 w-15"/>
       <div className="flex flex-col items-start">
         <h1 className="text-2xl font-epilogue font-bold text-[#25324B]">
